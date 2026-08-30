@@ -1,10 +1,12 @@
-Preamp: -6 dB
-Copy: L=R R=L
 Include: HeSuVi\hesuvi.txt
+
+Preamp: -15 dB
+; Copy: L=R R=L
 # Cadenza II
-GraphicEQ: 31 0; 62 0; 125 0; 250 0; 500 -1; 1000 -2; 2000 0; 4000 2; 8000 3; 16000 2
+; GraphicEQ: 31 0; 62 0; 125 0; 250 0; 500 -1; 1000 -2; 2000 0; 4000 3; 8000 3; 16000 2
 ; GraphicEQ: 31 -2; 62 -2; 125 -2; 250 -4; 500 -3; 1000 -2; 2000 0; 4000 2; 8000 3; 16000 2
 
+#Kz Castor
 ; GraphicEQ: 31 7.1; 62 4.7; 125 2; 250 -0.3; 500 -2; 1000 -0.8; 2000 -1.9; 4000 8.3; 8000 9.5; 16000 9.7
 ; GraphicEQ: 31 5; 62 4; 125 2; 250 0; 500 -2; 1000 -1; 2000 -2; 4000 8; 8000 10; 16000 10
 ; GraphicEQ: 31 4; 62 6; 125 3; 250 0; 500 -2; 1000 -1; 2000 -2; 4000 7; 8000 7; 16000 5
@@ -12,44 +14,43 @@ GraphicEQ: 31 0; 62 0; 125 0; 250 0; 500 -1; 1000 -2; 2000 0; 4000 2; 8000 3; 16
 ; GraphicEQ: 31 4.1; 62 4.7; 125 2; 250 -0.3; 500 -2; 1000 -0.8; 2000 -1.9; 4000 6.3; 8000 6.5; 16000 4.7
 
 
-
 # Higher Test
 
-# Filter 1:  ON  PK  Fc 32 Hz  Gain 5.1 dB  Q 1.41
-# Filter 2:  ON  PK  Fc 64 Hz  Gain 5 dB  Q 1.41
-# Filter 3:  ON  PK  Fc 125 Hz  Gain 2.1 dB  Q 1.41
-# Filter 4:  ON  PK  Fc 250 Hz  Gain -0.3 dB  Q 1.41
-# Filter 5:  ON  PK  Fc 500 Hz  Gain -1 dB  Q 1.41
-# Filter 6:  ON  PK  Fc 1000 Hz  Gain -1 dB  Q 1.41
-# Filter 7:  ON  PK  Fc 2000 Hz  Gain 2 dB  Q 1.41
-# Filter 8:  ON  PK  Fc 4000 Hz  Gain 7 dB  Q 1.41
-# Filter 9:  ON  PK  Fc 8000 Hz  Gain 8.5 dB  Q 1.41
-# Filter 10:  ON  PK  Fc 16000 Hz  Gain 8.7 dB  Q 1.41
+Filter 1 :  ON  PK  Fc 32 Hz     Gain 2.1 dB  Q 1.41
+Filter 2 :  ON  PK  Fc 64 Hz     Gain 2 dB  Q 1.41
+Filter 3 :  ON  PK  Fc 125 Hz    Gain 0.1 dB  Q 1.41
+Filter 4 :  ON  PK  Fc 250 Hz    Gain -3.3 dB  Q 1.41
+Filter 5 :  ON  PK  Fc 500 Hz    Gain -4 dB  Q 1.41
+Filter 6 :  ON  PK  Fc 1000 Hz   Gain -4 dB  Q 1.41
+Filter 7 :  ON  PK  Fc 2000 Hz   Gain 0 dB  Q 1.41
+Filter 8 :  ON  PK  Fc 4000 Hz   Gain 3 dB  Q 1.41
+Filter 9 :  ON  PK  Fc 8000 Hz   Gain 5 dB  Q 1.41
+Filter 10:  ON  PK  Fc 16000 Hz  Gain 2 dB  Q 1.41
 
 
 # Lower Test
 
-# Filter 1:  ON  PK  Fc 32 Hz      Gain 5 dB     Q 1.41
-# Filter 2:  ON  PK  Fc 64 Hz      Gain 6 dB     Q 1.41
-# Filter 3:  ON  PK  Fc 125 Hz     Gain 3 dB     Q 1.41
-# Filter 4:  ON  PK  Fc 250 Hz     Gain 0 dB     Q 1.41
-# Filter 5:  ON  PK  Fc 500 Hz     Gain -1 dB    Q 1.41
-# Filter 6:  ON  PK  Fc 1000 Hz    Gain -2 dB    Q 1.41
-# Filter 7:  ON  PK  Fc 2000 Hz    Gain -1 dB    Q 1.41
-# Filter 8:  ON  PK  Fc 4000 Hz    Gain 8 dB     Q 1.41
-# Filter 9:  ON  PK  Fc 8000 Hz    Gain 8 dB     Q 1.41
-# Filter 10:  ON  PK  Fc 16000 Hz  Gain 8 dB     Q 1.41
+; Filter 1 :  ON  PK  Fc 32 Hz      Gain 5 dB     Q 1.41
+; Filter 2 :  ON  PK  Fc 64 Hz      Gain 6 dB     Q 1.41
+; Filter 3 :  ON  PK  Fc 125 Hz     Gain 3 dB     Q 1.41
+; Filter 4 :  ON  PK  Fc 250 Hz     Gain 0 dB     Q 1.41
+; Filter 5 :  ON  PK  Fc 500 Hz     Gain -1 dB    Q 1.41
+; Filter 6 :  ON  PK  Fc 1000 Hz    Gain -2 dB    Q 1.41
+; Filter 7 :  ON  PK  Fc 2000 Hz    Gain -1 dB    Q 1.41
+; Filter 8 :  ON  PK  Fc 4000 Hz    Gain 8 dB     Q 1.41
+; Filter 9 :  ON  PK  Fc 8000 Hz    Gain 8 dB     Q 1.41
+; Filter 10:  ON  PK  Fc 16000 Hz   Gain 8 dB     Q 1.41
 
 
 # KZ Castor Profile 1
 
-# Filter 1:  ON  PK  Fc 32 Hz  Gain -0.6 dB  Q 1.41
-# Filter 2:  ON  PK  Fc 64 Hz  Gain 2.3 dB  Q 1.41
-# Filter 3:  ON  PK  Fc 125 Hz  Gain -0.2 dB  Q 1.41
-# Filter 4:  ON  PK  Fc 250 Hz  Gain 0.8 dB  Q 1.41
-# Filter 5:  ON  PK  Fc 500 Hz  Gain 3.8 dB  Q 1.41
-# Filter 6:  ON  PK  Fc 1000 Hz  Gain -0.2 dB  Q 1.41
-# Filter 7:  ON  PK  Fc 2000 Hz  Gain -3.3 dB  Q 1.41
-# Filter 8:  ON  PK  Fc 4000 Hz  Gain -2.3 dB  Q 1.41
-# Filter 9:  ON  PK  Fc 8000 Hz  Gain 1.2 dB  Q 1.41
-# Filter 10:  ON  PK  Fc 16000 Hz  Gain 3.8 dB  Q 1.41
+; Filter 1 :  ON   PK   Fc 32 Hz     Gain -0.6 dB  Q 1.41
+; Filter 2 :  ON   PK   Fc 64 Hz     Gain 2.3 dB   Q 1.41
+; Filter 3 :  ON   PK   Fc 125 Hz    Gain -0.2 dB  Q 1.41
+; Filter 4 :  ON   PK   Fc 250 Hz    Gain 0.8 dB   Q 1.41
+; Filter 5 :  ON   PK   Fc 500 Hz    Gain 3.8 dB   Q 1.41
+; Filter 6 :  ON   PK   Fc 1000 Hz   Gain -0.2 dB  Q 1.41
+; Filter 7 :  ON   PK   Fc 2000 Hz   Gain -3.3 dB  Q 1.41
+; Filter 8 :  ON   PK   Fc 4000 Hz   Gain -2.3 dB  Q 1.41
+; Filter 9 :  ON   PK   Fc 8000 Hz   Gain 1.2 dB   Q 1.41
+; Filter 10:  ON   PK   Fc 16000 Hz  Gain 3.8 dB   Q 1.41
